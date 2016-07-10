@@ -1,0 +1,1 @@
+# sentinel-camera-integration-test

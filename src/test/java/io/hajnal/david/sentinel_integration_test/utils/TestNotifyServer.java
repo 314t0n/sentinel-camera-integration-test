@@ -12,9 +12,9 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import io.hajnal.david.sentinel.communication.Message;
 import io.hajnal.david.sentinel.communication.SocketConnection;
-import io.hajnal.david.sentinel.communication.Socket.AbstractSocketFactory;
+import io.hajnal.david.sentinel.communication.message.Message;
+import io.hajnal.david.sentinel.communication.socket.AbstractSocketFactory;
 import io.hajnal.david.sentinel.config.CommunicationConfig;
 import io.hajnal.david.sentinel_integration_test.utils.helpers.TcpServer;
 import junit.framework.Assert;

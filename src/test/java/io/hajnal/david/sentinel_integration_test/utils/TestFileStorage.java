@@ -49,7 +49,7 @@ public class TestFileStorage {
 	public void saveImageShouldSaveTheFrameToTheFileSystem() {
 		// Given
 		LocalDateTime timestamp = LocalDateTime.of(2011, 11, 11, 11, 11, 11, 11);
-		Mat frame = camera.getFrame();
+		Mat frame = camera.getRawFrame();
 		// When
 		underTest.saveImage(frame, timestamp);
 		Mat result = underTest.readImage(timestamp);

@@ -1,0 +1,1 @@
+{"cameraId":0,"standalone":false,"deviceId":"test","host":"localhost","port":3000,"fps":5,"imagelogSettings":{"status":false,"storeImageOnDevice":false,"storeOnDeviceInDays":1,"intervalInSeconds":1},"motionDetectSettings":{"status":true,"storeImageOnDevice":true,"storeOnDeviceInDays":3,"mogHistory":5,"threshold":5000}}
